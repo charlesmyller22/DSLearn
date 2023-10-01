@@ -21,3 +21,6 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) VALUES ('Springboot', 'Aprenda Springboot', 1, 'https://workshopexperience.com/wp-content/uploads/2020/03/CURSO-DE-FOTOGRAFIA-PROFESIONAL-2.jpg', 1, 1);
 INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) VALUES ('FORUM', 'Tire suas duvidas', 2, 'https://workshopexperience.com/wp-content/uploads/2020/03/CURSO-DE-FOTOGRAFIA-PROFESIONAL-2.jpg', 2, 1);
 INSERT INTO tb_resource(title, description, position, img_uri, type, offer_id) VALUES ('Lives', 'Conteudo', 3, 'https://workshopexperience.com/wp-content/uploads/2020/03/CURSO-DE-FOTOGRAFIA-PROFESIONAL-2.jpg', 0, 1);
+
+INSERT INTO tb_enrollment (user_id, offer_id, enrollment, refund_Moment, available, only_update) VALUES (1, 1, TIMESTAMP WITH TIME ZONE '2020-07-25T13:00:00Z', null, true, false);
+INSERT INTO tb_enrollment (user_id, offer_id, enrollment, refund_Moment, available, only_update) VALUES (2, 1, TIMESTAMP WITH TIME ZONE '2020-07-25T13:00:00Z', null, true, false);
